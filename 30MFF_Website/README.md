@@ -38,8 +38,5 @@ Creating Adventures of Sleepy Steve was a fun and informative journey that allow
    - Creating dedicated pages on the site to elaborate on the various sleep tips rather than linking to external sources.
    - Making the site responsive to ensure a consistent user-experience across different devices.
 
-<<<<<<< HEAD
-In conclusion, Adventures of Sleepy Steve successfully brings Steve's journey to life in a digital space, achieving the desired balance of entertainment and functionality. The project showcases the potential of combining storytelling with web design to create a memorable online experience.
-=======
 In conclusion, Adventures of Sleepy Steve successfully brings Sleepy Steve's journey to life in a digital space, achieving the desired balance of entertainment and functionality. The project showcases the potential of combining storytelling with web design to create a memorable online experience.
->>>>>>> 8320e8613f0965f8fabac53f565879e53ae5c666
+

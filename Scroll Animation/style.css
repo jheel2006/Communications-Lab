@@ -1,0 +1,138 @@
+html{
+	/* Set height of the html page to 100% of the browser height */
+	height: 100%;
+	/* Hide horizontal scroll */
+	overflow-x: hidden;
+	font-family: 'Helvetica', sans-serif;
+}
+
+body{
+	/* Set height of the body to 100% -- separated out of html to allow scrollTo animation */
+	height: 100%;
+	margin: 0px;
+}
+
+/* 
+Navigation Bar 
+*/
+#nav{
+	/* Fix navigation bar at the top middle of the web page */
+    position: fixed;
+    /* calc() CSS function calculates numbers of different units */
+    left: calc(50% - 50px);
+    top: 20px;
+    /* Display nav bar on top of everything else */
+    z-index: 1;
+}
+
+.nav-btn{
+	width: 20px;
+    height: 20px;
+    /* Make square div into a circle */
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+    /* transition changes in background-color */
+    transition: background-color 0.5s;
+}
+
+/* When a nav-btn is hovered on, set background-color to black */
+.nav-btn:hover{
+	background-color: black;
+}
+
+/* 
+Cat Div
+*/
+#cat-div{
+	/* Fix cat div in the bottom left corner of the web page */
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 300px;
+	text-align: center;
+}
+
+#cat{
+	width: 300px;
+	margin-top: 18px;
+}
+
+#cat-text{
+	color: white;
+	background-color: black;
+	font-size: 32px;
+}
+
+/* 
+Parallax: All sections;
+*/
+#coffee, #harvest, #roast, #brew{
+	/* Set height of div to 100% */
+	height: 100%;
+	/* The bottom three background CSS settings create parallax effect */
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+#coffee{
+	/* Set background image of coffee section using url() function */
+	background-image: url('img/coffee_cover.jpeg');
+}
+
+#harvest{
+	/* Set background image of harvest section using url() function */
+	background-image: url('img/harvest.jpg');
+}
+
+#roast{
+	/* Set background image of roast section using url() function */
+	background-image: url('img/roast.jpeg');
+}
+
+#brew{
+	/* Set background image of roast section using url() function */
+	background-image: url('img/brew.jpg');
+}
+
+/* 
+Flower div inside Mountain section
+*/
+#flower-div, #flower-div1, #flower-div2, #flower-div3{
+    position: relative;
+    width: 150px;
+    text-align: center;
+    top: calc(100% - 300px);
+    left: calc(50% - 75px);
+}
+
+#flower{
+	width: 100px;
+	margin-top: 25px;
+}
+
+#flower-text{
+	color: white;
+}
+
+
+#arrow-div, #arrow-div1, #arrow-div2, #arrow-div3{
+    position: relative;
+    width: 150px;
+    text-align: center;
+    top: calc(100% - 300px);
+    left: calc(50% - 75px);
+}
+
+#arrow{
+	width: 100px;
+	margin-top: 25px;
+}
+
+#arrow-text{
+	color: white;
+}
+

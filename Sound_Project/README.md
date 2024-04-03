@@ -1,4 +1,4 @@
-# Sound Project Documentation
+# What's Happening at NYUAD?: Sound Design And Interactivity ([Website Link](https://jheel2006.github.io/Sound_Project/))
 
 ## Project Name
 What's Happening at NYUAD?: Sound Design And Interactivity

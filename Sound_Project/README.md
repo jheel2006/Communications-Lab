@@ -1,7 +1,5 @@
 # What's Happening at NYUAD?: Sound Design And Interactivity ([Website Link](https://jheel2006.github.io/Sound_Project/))
 
-## Project Name
-What's Happening at NYUAD?: Sound Design And Interactivity
 
 ## Introduction/Description
 This project was conceived with the aim of creating a cinematic sound design experience coupled with interactivity. The narrative style follows a mystery theme, blending elements of science fiction with real-world scenarios. Throughout the project, the sound and interactivity evolve to match the narrative arc, engaging audiences in a unique storytelling experience. The beginning narrative of the story is based on a true small incident at NYUAD. With cinematic liberty, the incident has been converted into a fiction. 

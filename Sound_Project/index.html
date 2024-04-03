@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>What's Happening at NYUAD?</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div id="cover">
+		<div id="flower-div" onclick="scrollPage('flower-div')">
+			<!-- <span id="flower-text"> Scroll to find out how coffee is made!</span> -->
+			<img id="start-button" src="img/play_button.png" alt="Play Button" title="Play">
+            <audio id="intro-audio">
+                <source src="sound/main_audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+			<img id="rewind-button" src="img/rewind_button.png" alt="Rewind Button" title="Go to beginning">
+			<img id="forward-button" src="img/forward_button.png" alt="Forward Button" title="Skip to credits" onclick="showCredits()">
+			<img id="mute-button" src="img/unmute.png" alt="Mute Button">
+			<span id="sound-text"><b>SOUND ON</b></span>
+			<h1 id="heading">What's Happening at NYUAD?</h1> 
+		</div>
+	</div>
+	<div id="video-container">
+		<video id="bg-video">
+			<source src="img/background_video.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<img id="audio-description" src="img/audio_description.png" alt="Audio Description">
+	<img id="restart-button" src="img/restart.png" alt="Restart Button">
+	<img id="new-forward-button" src="img/new_forward_button.png" alt="Forward Button" title="Go to credits" onclick="showCredits()">
+
+
+	<div class="credits">
+		<div class="credits-heading">- CREDITS -</div>
+        <div class="credit">
+            <div class="front">
+                <div class="name">JHEEL THANKI</div>
+            </div>
+            <div class="back">
+                <div class="role">Built website and implemented interactivity
+				</div>
+            </div>
+        </div>
+        <div class="credit">
+            <div class="front">
+                <div class="name">RASHED ALSHAMSI</div>
+            </div>
+            <div class="back">
+                <div class="role">Narrated and edited audio
+				</div>
+            </div>
+        </div>
+        <div class="credit">
+            <div class="front">
+                <div class="name">REHNUMA TASKIN</div>
+            </div>
+            <div class="back">
+                <div class="role">Narrated and edited audio
+				</div>
+            </div>
+        </div>
+		<div class="credit">
+            <div class="front">
+                <div class="name">TINH NGO</div>
+            </div>
+            <div class="back">
+                <div class="role">Recorded ambience and wrote website description</div>
+            </div>
+        </div>
+		<img id="restart-button" src="img/restart.png" alt="Restart Button">
+    </div>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
+

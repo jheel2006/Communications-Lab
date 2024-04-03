@@ -1,0 +1,329 @@
+html{
+	/* Set height of the html page to 100% of the browser height */
+	height: 100%;
+	/* Hide horizontal scroll */
+	overflow-x: hidden;
+	font-family: 'Helvetica', sans-serif;
+}
+
+body{
+	/* Set height of the body to 100% -- separated out of html to allow scrollTo animation */
+	height: 100%;
+	margin: 0px;
+}
+
+
+/* 
+Parallax: All sections;
+*/
+#cover{
+	/* Set height of div to 100% */
+	height: 100%;
+	/* The bottom three background CSS settings create parallax effect */
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+#cover{
+	/* Set background image of coffee section using url() function */
+	background-image: url('img/nyuad.png');
+}
+
+#heading {
+    font-size: 4em; /* Adjust font size as needed */
+    color: black; /* Set font color to black */
+    text-align: center; /* Center the text */
+    /* margin-top: 230px; Increase margin-top to move the heading down */
+    /* margin-bottom: 100px; */
+    margin: 230px auto 100px;
+    border-right: 2px solid #000; /* Create a cursor effect */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite; /* Animation for typing effect */
+}
+
+/* Animation keyframes for typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* Animation keyframes for cursor blinking */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #000 }
+}
+
+
+/* 
+Start button
+*/
+#start-button{
+    position: relative;
+    top: 500px; /* Adjust as needed */
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Set other styles as needed */
+    width: 100px;
+    cursor: pointer;
+    z-index: 2;
+    margin-top: 25px;
+}
+
+#start-button img:hover {
+    content: url('img/play_button_hover.png'); /* Replace 'play_button_hover.png' with the path to your new image */
+}
+
+#rewind-button{
+    position: relative;
+    top: 500px; /* Adjust as needed */
+    bottom: 0px;
+    left: 30%;
+    transform: translateX(-50%);
+    /* Set other styles as needed */
+    width: 100px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#rewind-button{
+	width: 100px;
+	margin-top: 25px;
+}
+
+
+#rewind-button:hover::after {
+    content: attr(title);
+    background-color: rgba(0, 0, 0, 0.8); /* Background color */
+    color: #fff; /* Text color */
+    padding: 8px 12px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    position: absolute; /* Position it absolutely */
+    bottom: calc(100% + 5px); /* Position above the button with some space */
+    left: 50%; /* Position it centered */
+    transform: translateX(-50%); /* Center horizontally */
+    font-size: 14px; /* Font size */
+    white-space: nowrap; /* Prevent wrapping */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+#rewind-button:hover::after {
+    opacity: 1; /* Show on hover */
+}
+
+
+#forward-button{
+    position: relative;
+    top: 500px; /* Adjust as needed */
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Set other styles as needed */
+    width: 100px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#forward-button{
+	width: 100px;
+	margin-top: 25px;
+}
+
+#new-forward-button{
+    display: none;
+    position: absolute;
+    top: 580px;
+    bottom: 300px;
+    left: 70%;
+    transform: translateX(-50%);
+    /* Set other styles as needed */
+    width: 100px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+#new-forward-button{
+	width: 100px;
+	margin-top: 25px;
+}
+
+#mute-button{
+    /* Set position to fixed to keep the button fixed on the screen */
+    position: fixed;
+    /* Position the button at the bottom right corner */
+    bottom: 30px;
+    right: 20px;
+    /* Set other styles as needed */
+    width: 100px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#mute-button{
+	width: 100px;
+	margin-top: 25px;
+}
+
+
+
+#sound-text {
+    /* Position the text below the mute button */
+    position: fixed;
+    bottom: 10px; /* Adjust the distance from the button */
+    right: 20px; /* Adjust the horizontal position */
+    display: inline; /* Hide initially */
+    font-size: 20px; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    z-index: 1;
+}
+
+#restart-button{    
+    display: none;
+    position: absolute;
+    top: 580px;
+    bottom: 300px;
+    left: 30%;
+    transform: translateX(-50%);
+    /* Set other styles as needed */
+    width: 300px;
+    height: 100px;
+    margin-top: 25px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+#restart-button:hover {
+    content: url('img/restart_hover.png'); 
+}
+
+#audio-description {
+    display: none; /* Hide the audio description image by default */
+    visibility: hidden;
+    position: absolute; /* Position it absolutely */
+    bottom: 500px; /* Adjust the distance from the bottom */
+    top: 100px;
+    left: 50%; /* Position it horizontally in the center */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 1000px; /* Set the width */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 999; /* Ensure it's above other elements */
+    opacity: 0; /* Initially set opacity to 0 */
+    transition: opacity 1s ease; /* Apply transition effect */
+}
+
+#audio-description.fade-in {
+    visibility: visible;
+    opacity: 1; /* Set opacity to 1 to fade in */
+}
+
+
+
+#rectangle {
+    position: relative; /* Ensure the rectangle is positioned relatively */
+    width: 60%; 
+    height: 90px;
+    margin: 200px auto 0; /* Center the box and add 50px margin on the top */
+    background-color: #000000; /* Background color */
+    padding: 10px; /* Padding around the content */
+    border: 2px solid #000000; /* Border */
+    border-radius: 40px; /* Rounded corners */
+}
+
+#rectangle h1 {
+    font-size: 4em;
+    margin: 0; /* Remove default margin */
+    color: rgb(255, 255, 255); /* Set font color */
+}
+
+#video-container {
+    display: none; /* Hide the video initially */
+    visibility: visible;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4; /* Ensure the video is above all other content */
+}
+
+.credits {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('img/credits.png');
+    background-size: cover; /* Cover the entire container */
+    background-position: center;
+}
+
+.credits-heading {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #ede2ec;
+    text-align: center;
+    top: 70px;
+    margin-bottom: 20px; /* Adjust as needed */
+    border-radius: 30px; /* Rounded corners */
+    background-color: #161016; /* Background color */
+    padding: 10px; /* Padding around the content */
+    width: 330px; /* Same width as other credits */
+    height: 80px;
+    font-size: 57px;
+    z-index: 2; /* Ensure it's on top */
+    position: absolute; /* Position it relative to the parent */
+}
+
+.credit {
+    width: 380px;
+    height: 290px;
+    margin: 20px;
+    perspective: 1000px;
+    border-radius: 30px;
+}
+
+.front, .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front {
+    font-weight: bold;
+    background-color: #161016;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #ede2ec;
+    cursor: pointer;
+    transition: transform 0.6s;
+    border-radius: 30px;
+}
+
+.back {
+    background-color: #54355b;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #ede2ec;
+    transform: rotateY(180deg);
+    transition: transform 0.6s;
+    border-radius: 30px;
+}
+
+.credit:hover .front {
+    transform: rotateY(180deg);
+}
+
+.credit:hover .back {
+    transform: rotateY(0deg);
+}

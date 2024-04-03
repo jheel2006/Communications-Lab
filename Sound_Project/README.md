@@ -19,7 +19,7 @@ Implementing the sound design aspect necessitated a rigorous research endeavor. 
 Visualizing the narrative progression posed a significant challenge, requiring iterative iterations of storyboarding and wireframing. Each visual element was meticulously crafted to complement the unfolding storyline while maintaining an air of suspense and intrigue. The integration of web design elements played a crucial role in ensuring that viewers remained immersed in the narrative without preempting its twists and turns.
 
 ### Web Development
-Our website, built from scratch, complements the immersive sound experience. It starts with a captivating image of NYUAD, dynamically switching backgrounds to align with key plot points. Navigation is intuitive with interactive buttons, facilitating exploration. Navigation throughout the website is intuitive and user-friendly, designed to provide a seamless experience for audiences. Interactive buttons strategically placed within the interface allow users to explore different sections of the website with ease, enhancing engagement and interactivity. Additionally, the credits page features interactive elements, providing users with a personalized touchpoint as they conclude their journey through the narrative. The design of the website was carefully orchestrated to complement the audio soundscape, ensuring a cohesive and immersive experience for users. 
+Our website, built from scratch, complements the immersive sound experience. It starts with a captivating image of NYUAD, dynamically switching backgrounds to align with key plot points. Navigation throughout the website is intuitive and user-friendly, designed to provide a seamless experience for audiences. Interactive buttons strategically placed within the interface allow users to explore different sections of the website with ease, enhancing engagement and interactivity. Additionally, the credits page features interactive elements, providing users with a personalized touchpoint as they conclude their journey through the narrative. The design of the website was carefully orchestrated to complement the audio soundscape, ensuring a cohesive and immersive experience for users. 
 
 ## Usage
 The project is intended for entertainment purposes, offering viewers an immersive and engaging storytelling experience.
@@ -28,20 +28,21 @@ The project is intended for entertainment purposes, offering viewers an immersiv
 - Immersive narrative experience
 - Dynamic soundscapes
 - Interactive storytelling elements
+- Easy navigation through intuitive/interactive buttons
 
 ## Key Challenges
 One of the primary challenges encountered during the project's development was achieving a seamless integration of sophisticated sound engineering techniques with the narrative framework. The iterative refinement process was crucial in ensuring that the auditory elements seamlessly complemented the evolving storyline. Determining the optimal visual presentation and layout to suit the narrative needs while aligning with the immersive sound experience posed a critical challenge during web development.Furthermore, the meticulous integration of web design elements posed additional challenges, requiring careful consideration to maintain narrative suspense while preserving user engagement.
 
 ## Reflection/Evaluation:
-Our project, "What's Happening at NYUAD?" embarked on a journey to create an immersive audio experience within the unique landscape of NYU Abu Dhabi's campus, blending fiction and reality. Despite encountering challenges in sourcing specific sounds such as water features like the small fountains of NYUAD or the serene ambiance of the Palm area, we creatively substituted elements like a cat's gentle purring to maintain the project's authenticity and integrity.
+Our project, "What's Happening at NYUAD?" embarked on a journey to create an immersive audio experience within the unique landscape of NYU Abu Dhabi's campus, blending fiction and reality. Despite encountering challenges in sourcing specific sounds such as water features from the small fountains of NYUAD or the serene ambiance of the Palm area, we creatively substituted elements like a cat's gentle purring to maintain the project's authenticity and integrity.
 
 Through thoughtful sound curation and a well-crafted interview script, we effectively transported listeners into the heart of NYUAD's daily life. By weaving together immersive soundscapes and compelling storytelling, the project transported listeners into a world besieged by extraterrestrial forces. 
 
 ## Copyright 
-This project is an original creative work of Rashed Alshamsi, Tinh Ngo, Rehnuma Taskin and Jheel Thanki
+This project is an original creative work of Jheel Thanki, Rashed Alshamsi, Tinh Ngo and Rehnuma Taskin.
 
 ## Acknowledgements
 We extend our heartfelt gratitude to NYU Abu Dhabi's Arts Center for its support, resources and contributions throughout the project's development.
 
 ##
-In conclusion, What's Happening at NYUAD?: Sound Design And Interactivity" represents a collaborative endeavor aimed at pushing the boundaries of immersive storytelling. Through rigorous narrative development, innovative sound design, and seamless web development, this project aims to captivate audiences with its blend of mystery, science fiction, and real-world inspiration
+In conclusion, What's Happening at NYUAD?: Sound Design And Interactivity" represents a collaborative endeavor aimed at pushing the boundaries of immersive storytelling. Through rigorous narrative development, innovative sound design, and seamless web development, this project aims to captivate audiences with its blend of mystery, science fiction, and real-world inspiration.

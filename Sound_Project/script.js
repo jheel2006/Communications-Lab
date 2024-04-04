@@ -13,7 +13,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const credits = document.querySelector(".credits");
     const audioDescription = document.getElementById("audio-description");
     const newForwardButton = document.getElementById("new-forward-button");
-    const hoverSoundSrc = "sound/hover-sound.mp3";
+    const hoverSound = new Audio("sound/hover-sound.mp3");
+    hoverSound.volume=0.1;
     
     // Store the original, hover, play, and pause button image sources
     const playSrc = "img/play_button.png"; 
@@ -24,37 +25,22 @@ document.addEventListener("DOMContentLoaded", function() {
     const unmuteSrc = "img/unmute.png";
 
     startButton.addEventListener("mouseenter", function() {
-        // Create Audio object
-        const hoverSound = new Audio(hoverSoundSrc);
-        // Play the sound
         hoverSound.play();
     });
 
     rewindButton.addEventListener("mouseenter", function() {
-        // Create Audio object
-        const hoverSound = new Audio(hoverSoundSrc);
-        // Play the sound
         hoverSound.play();
     });
 
     forwardButton.addEventListener("mouseenter", function() {
-        // Create Audio object
-        const hoverSound = new Audio(hoverSoundSrc);
-        // Play the sound
         hoverSound.play();
     });
 
     newForwardButton.addEventListener("mouseenter", function() {
-        // Create Audio object
-        const hoverSound = new Audio(hoverSoundSrc);
-        // Play the sound
         hoverSound.play();
     });
 
     restartButton.addEventListener("mouseenter", function() {
-        // Create Audio object
-        const hoverSound = new Audio(hoverSoundSrc);
-        // Play the sound
         hoverSound.play();
     });
 
@@ -76,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function showVideo() {
         // Hide all content before showing the video
-        if (introAudio.currentTime >= 208){
+        if (introAudio.currentTime >= 171){
             document.getElementById('flower-div').style.display = 'none';
             cover.style.display = 'none';
             document.getElementById('video-container').style.display = 'block';

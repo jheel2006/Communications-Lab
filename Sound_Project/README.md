@@ -1,4 +1,4 @@
-# What's Happening at NYUAD?: Sound Design And Interactivity ([Website Link](https://jheel2006.github.io/Sound_Project/))
+# What's Happening at NYUAD? ([Website Link](https://jheel2006.github.io/Sound_Project/))
 
 
 ## Introduction/Description
@@ -36,7 +36,7 @@ Our project, "What's Happening at NYUAD?" embarked on a journey to create an imm
 Through thoughtful sound curation and a well-crafted interview script, we effectively transported listeners into the heart of NYUAD's daily life. By weaving together immersive soundscapes and compelling storytelling, the project transported listeners into a world besieged by extraterrestrial forces. 
 
 ## Copyright 
-This project is an original creative work of Rashed Alshamsi, Tinh Ngo, Rehnuma Taskin and Jheel Thanki
+This project is an original creative work of Jheel Thanki, Rashed Alshamsi, Tinh Ngo and Rehnuma Taskin
 
 ## Acknowledgements
 We extend our heartfelt gratitude to NYU Abu Dhabi's Arts Center for its support, resources and contributions throughout the project's development.

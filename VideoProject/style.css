@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #d4d8f0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    position:absolute;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    left: 44%;
+}
+
+nav li {
+    margin: 0 5px;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+}
+nav a:hover,
+nav a.active {
+    background-color: #232946;
+}
+
+
+.left-half {
+    width: 50%;
+    height: 100vh;
+    background-image: url('img/cover_page.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.left-half svg {
+    position: absolute;
+    top: 0;
+    right: -1px; /* To overlap the right-half */
+    width: 100%;
+    height: 100%;
+    
+}
+
+.new-half {
+    width: 50%;
+    height: 100vh;
+    background-color: #232946;
+    background-image: url('img/title.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#start-button{
+    position: relative;
+    top: 450px; /* Adjust as needed */
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Set other styles as needed */
+    width: 200px;
+    height: 80px;
+	margin-top: 0px;;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#start-button:hover {
+    width: 220px;
+    height: 88px;
+}
+
+.right-half {
+    width: 50%;
+    height: 100vh;
+    background-color: #E8D8BC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+    font-size: 24px;
+    color: #EF5352;
+}
+
+#heading {
+    position: absolute;
+    top: 12%; /* Adjust as needed */
+    left: 14%;
+    z-index: 2;
+    text-align: center;
+    height: 100px;
+    width: 1100px;
+}   
+
+#step {
+    font-size: 2em; /* Adjust font size as needed */
+    color: black; /* Set font color to black */
+    text-align: center; /* Center the text */   
+    margin: 230px auto 100px;
+    border-right: 2px solid #000; /* Create a cursor effect */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite; /* Animation for typing effect */
+    z-index: 3;
+}
+
+.video-container {
+    position: absolute;
+    /* background-color: #232946; */
+    height: 0;
+    top: 27%;
+    left: 20%;
+}
+
+
+#back-button {
+    /* Set position to fixed to keep the button fixed on the screen */
+    position: fixed;
+    /* Position the button at the bottom right corner */
+    bottom: 30px;
+    right: 1365px;
+    /* Set other styles as needed */
+    width: 150px;
+    cursor: pointer;
+    z-index: 2;
+    display: block; 
+}
+
+#next-button {
+    /* Set position to fixed to keep the button fixed on the screen */
+    position: fixed;
+    /* Position the button at the bottom right corner */
+    bottom: 30px;
+    right: 20px;
+    /* Set other styles as needed */
+    width: 150px;
+    cursor: pointer;
+    z-index: 2;
+    display: block; 
+}

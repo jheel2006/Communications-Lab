@@ -76,7 +76,7 @@ Start button
 
 #start-button img:hover {
     content: url('img/play_button_hover.png'); /* Replace 'play_button_hover.png' with the path to your new image */
-}
+}   
 
 #rewind-button{
     position: relative;

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to find a partner for your origami swan?</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('img/bio.png'); /* Replace 'your-background-image.jpg' with the path to your image */
+            background-size: cover; /* Cover the entire viewport */
+            
+            font-family: Arial, sans-serif; /* Choose your preferred font */
+        }
+        #choice-button1{
+            position: absolute;
+            top: 85%; 
+            bottom: 40px;
+            left: 42%;
+            transform: translateX(-50%);
+            /* Set other styles as needed */
+            width: 240px;
+            height: 96px;
+            margin-top: 0px;;
+            cursor: pointer;
+            z-index: 2;
+        }
+        #choice-button1:hover, #choice-button2:hover{
+            width: 264px;
+            height: 106px;
+        }
+
+        #choice-button2{
+            position: absolute;
+            top: 85%; 
+            bottom: 0px;
+            left: 65%;
+            transform: translateX(-50%);
+            /* Set other styles as needed */
+            width: 240px;
+            height: 96px;
+            margin-top: 0px;;
+            cursor: pointer;
+            z-index: 2;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="part3.html"><img id="choice-button1" src="img/yes.png" alt="Yes Button"></a>
+    <a href="choices.html"><img id="choice-button2" src="img/no.png" alt="No Button"></a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

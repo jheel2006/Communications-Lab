@@ -154,3 +154,115 @@ nav a.active {
     z-index: 2;
     display: block; 
 }
+
+#next-button:hover, #back-button:hover {
+    width: 157.5px;
+    height: calc(var(--original-height) * 1.05);
+}
+
+#credits-heading {
+    position: absolute;
+    top: 50px;
+    left: 34%;
+    z-index: 2;
+    text-align: center;
+    width: 500px; /* Same width as other credits */
+    height: 150px;
+}   
+
+.credits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    left: 50%;
+    font-family: sans-serif;
+}
+
+.credits-heading {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #232946;
+    text-align: center;
+    top: 70px;
+    left: 38%;
+    margin-bottom: 20px; /* Adjust as needed */
+    border-radius: 30px; /* Rounded corners */
+    background-color: #fffffe; /* Background color */
+    padding: 10px; /* Padding around the content */
+    width: 330px; /* Same width as other credits */
+    height: 80px;
+    font-size: 57px;
+    z-index: 2; /* Ensure it's on top */
+    position: absolute; /* Position it relative to the parent */
+}
+
+.credit {
+    width: 470px;
+    height: 290px;
+    margin: 20px;
+    perspective: 1000px;
+    border-radius: 30px;
+}
+
+.front, .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front {
+    font-weight: bold;
+    background-color: #b8c1ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #232946;
+    cursor: pointer;
+    transition: transform 0.6s;
+    border-radius: 30px;
+}
+
+.back {
+    font-weight: bold;
+    background-color: #eebbc3;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #232946;
+    transform: rotateY(180deg);
+    transition: transform 0.6s;
+    border-radius: 30px;
+}
+
+.credit:hover .front {
+    transform: rotateY(180deg);
+}
+
+.credit:hover .back {
+    transform: rotateY(0deg);
+}
+
+#restart-button{    
+    position: absolute;
+    top: 580px;
+    bottom: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Set other styles as needed */
+    width: 300px;
+    height: 100px;
+    margin-top: 25px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+#restart-button:hover {
+    width: 315px;
+    height: 105px;
+}

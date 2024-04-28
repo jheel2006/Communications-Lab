@@ -1,7 +1,7 @@
-# How to find a partner for your origami?
+# How to find a partner for your origami swan?
 
 ## Description
-Discover the art of origami like never before with 'How to find a partner for your Swan Origami?' This interactive website offers a journey into the world of origami, presenting three engaging video tutorials that showcases the crafting process of elegant swan origami figures. 
+Discover the art of origami like never before with 'How to find a partner for your origami swan?' This interactive website offers a journey into the world of origami, presenting three engaging video tutorials that showcases the crafting process of elegant swan origami figures. 
 Our goal is to provide users with both practical instruction and a touch of creativity. Beyond simply learning the techniques of origami, we invite users to immerse themselves in a narrative woven with themes of love and beauty. What if an origami creation also harbored desires for companionship and cared about its appearance? Through our innovative approach, we explore the hypothetical scenario of an origami's romantic escapades, painting a vivid picture of what a date in the world of folded paper might entail. 
 By interacting with our website, users will not only learn the craft but also gain a newfound appreciation for origami as a labor of love.
 

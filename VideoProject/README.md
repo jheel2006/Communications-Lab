@@ -1,4 +1,4 @@
-# How to find a partner for your origami swan? ([Website Link](https://jheel2006.github.io/VideoProject/))
+# How to Find a Partner for your Origami Swan? ([Website Link](https://jheel2006.github.io/VideoProject/))
 
 ## Description
 Discover the art of origami like never before with 'How to find a partner for your origami swan?' This interactive website offers a journey into the world of origami, presenting three engaging video tutorials that showcases the crafting process of elegant swan origami figures. 

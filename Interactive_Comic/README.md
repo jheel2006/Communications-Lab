@@ -1,4 +1,4 @@
-# Interactive Comics Project: "Day in the Life of an NYUAD Cat" ([Website Link](https://jheel2006.github.io/Interactive_Comic/))
+# Interactive Comics Project: "Day in the Life of an NYUAD Cat" ([Website Link](https://jheel2006.github.io/Communications-Lab/Interactive_Comic/))
 
 ## Project Description
 "Day in the Life of a Cat" is an engaging and interactive web-based comic that takes you on a fictional journey through the eyes of a cat. The story revolves around the cat's quest to find its food, offering a unique and entertaining perspective on daily life. Our goal is to create a visually attractive and enjoyable comics website, exploring the potential for a fun and interactive guide to the NYUAD campus.

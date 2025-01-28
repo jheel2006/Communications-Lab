@@ -1,4 +1,4 @@
-# Adventures of Sleepy Steve [(Website Link)](https://jheel2006.github.io/30MFF_Website/)
+# Adventures of Sleepy Steve [(Website Link)](https://jheel2006.github.io/Communications-Lab/30MFF_Website/)
 
 ## Project Description:
 Adventures of Sleepy Steve is a web project designed to provide an engaging and entertaining approach to improving sleep hygiene by using Steve, a stick figure who take center stage in the website. The overall concept revolves around showing Steve's transformative journey, from a sleep-deprived character to a guide offering valuable sleep tips. The theme combines a sense of fun with a touch of minimalism, offering visitors a unique and enjoyable experience. The color scheme, font choices, and layout contribute to the overall theme, creating an atmosphere that captures the essence of Steve's exciting journey.

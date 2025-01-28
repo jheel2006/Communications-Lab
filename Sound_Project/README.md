@@ -1,4 +1,4 @@
-# What's Happening at NYUAD? ([Website Link](https://jheel2006.github.io/Sound_Project/))
+# What's Happening at NYUAD? ([Website Link](https://jheel2006.github.io/Communications-Lab/Sound_Project/))
 
 
 ## Introduction/Description
